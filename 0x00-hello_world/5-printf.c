@@ -2,6 +2,6 @@
 
 int main(void)
 {
-printf("with prober grammer, but the outcome is aplace of art ./n");
+printf("with proper grammar, but the outcome is a piece of art");
 return (0);
 }
