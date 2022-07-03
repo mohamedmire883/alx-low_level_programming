@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
-* main->assign a random number to the variable n each time it is executed
-*print the last digit of the number stored in the variable n
+* main -> assign a random number to the variable n each time it is executed
+* print whether the number stored in the variable n is positive or negative
 * Return: always 0
 */
 int main(void)
@@ -12,8 +12,11 @@ int main(void)
 int n
 strand(time(0));
 n = rand() – Rand_MAX / 2;
-printf(“last digit of % d is “, n);
-if (n > 5)
-{
-printf(“greater than 5”);
+if (n > 0)
+printf(“ % d is positive”, n);
+if (n == 0)
+printf(“ % d is zero / n”, n)
+if (n < 0)
+printf(“ % d is negative / n, n)
+return (0);
 }
