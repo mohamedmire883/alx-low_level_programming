@@ -11,10 +11,10 @@ int alphabet;
 
 for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
 {
-putint(alphabet);
+putchar(alphabet);
 
 }
-putint("\n");
+putchar("\n");
 
 return (0);
 }
