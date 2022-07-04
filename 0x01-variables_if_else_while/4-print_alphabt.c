@@ -15,7 +15,7 @@ if (ch == "q")
 continue
 
 else if (ch == "e")
-
+continue
 putchar(ch);
 }
 putchar(10);
