@@ -1,20 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
-* main ->
+* main - Entry point
 *
-* Return: always 0
+* Return: always 0 (Seccess/correct)
 */
 int main(void)
 {
-int ch;
-for (ch = 97;  ch = < 122 ; ch++)
+char alphabet;
+
+for (alphabet = 'a'; alphabet =< 'z' ; alphabet)
 {
-putchar(“ch”);
+putchar(“alphabet”);
 
 }
-putchar(“10”)
+putchar(“\n”)
 return (0);
 }
