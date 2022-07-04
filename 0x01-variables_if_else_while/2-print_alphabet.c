@@ -7,14 +7,15 @@
 */
 int main(void)
 {
-int alphabet;
+int ch;
 
-for (alphabet = 97; alphabet <= 122; alphabet++)
+for (ch = 97; ch <= 122; alphabet++)
 {
-putchar(alphabet);
+putchar(ch);
 
 }
-putchar("\n");
+putchar("\n"):
+
 
 return (0);
 }
