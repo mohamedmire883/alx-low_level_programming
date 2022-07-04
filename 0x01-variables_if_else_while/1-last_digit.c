@@ -10,8 +10,9 @@
 int main(void)
 {
 int n
+
 srand(time(0));
-n = rand() – Rand_MAX / 2;
+n = rand() – RAND_MAX / 2;
 printf(“last digit of % d is “, n);
 if (n > 5)
 {
@@ -24,7 +25,7 @@ printf(“0”);
 if (n < 6 && n = !0)
 {
 printf(“less than 6 not zero”);
-printf(" / n”);
+printf("/n”);
 }
 return (0);
 }
