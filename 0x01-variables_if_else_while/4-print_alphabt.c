@@ -10,11 +10,11 @@ int main(void)
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
-if (ch == "q")
+if (ch == 'q')
 
 continue
 
-else if (ch == "e")
+else if (ch == 'e')
 continue
 putchar(ch);
 }
