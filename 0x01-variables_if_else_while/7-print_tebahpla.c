@@ -6,8 +6,7 @@
 * Return: always 0 (Seccess/correct)
 */
 int main(void)
-{
-int ch;
+char ch;
 
 for (ch = "z"; ch >= "a"; ch--)
 
