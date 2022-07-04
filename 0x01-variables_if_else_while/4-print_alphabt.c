@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-char ch;
+const char* ch;
 for (ch = "a"; ch <= "z"; ch++)
 {
 if (ch == "q")
@@ -18,7 +18,7 @@ else if (ch == "e")
 
 putchar(ch);
 }
-putchar("\n");
+putchar(10);
 
 return (0);
 }
