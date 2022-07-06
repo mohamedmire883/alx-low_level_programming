@@ -13,7 +13,7 @@ for (j = 'a'; x <= 'z'; j++)
 {
 _putchar(j);
 }
-}
 
 _putchar('\n');
+}
 }
