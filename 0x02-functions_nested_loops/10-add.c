@@ -8,8 +8,8 @@
 */
 int add(int a, int b)
 {
-int c = a + b;
-
-_putchar(c);
-geturn ('%c');
+int n;
+n = add(89, 9);
+printf("%d\n", n);
+return (0);
 }
