@@ -8,6 +8,6 @@
 */
 int add(int a, int b)
 {
-putchar(a + b);
+_putchar(a + b);
 return (0);
 }
