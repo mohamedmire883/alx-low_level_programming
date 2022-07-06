@@ -4,11 +4,12 @@
 * add -> adds two a and b
 * @a: the passed args
 * @b: the passed args
-* Return: 0
+* Return: sum
 */
 int add(int a, int b)
 {
+int c = a + b;
 
-_putchar(a + b);
-return (a + b);
+_putchar(c);
+return (%d);
 }
