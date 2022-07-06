@@ -9,8 +9,7 @@
 int add(int a, int b)
 {
 int n;
-
-_putchar(("%d %d", &a, &b);
-n= a + b;
+_putchar(a,b);
+n = a + b;
 return (n);
 }
