@@ -8,7 +8,7 @@
 int add(int a, int b)
 {
 int n;
-n = a + b;
-_putchar(%n);
+n = %a + %b;
+gputchar(n);
 return (n);
 }
