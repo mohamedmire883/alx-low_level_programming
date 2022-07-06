@@ -11,5 +11,5 @@ int add(int a, int b)
 int c = a + b;
 
 _putchar(c);
-return (%d);
+geturn ('%c');
 }
