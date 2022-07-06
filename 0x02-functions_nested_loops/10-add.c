@@ -9,7 +9,7 @@
 int add(int a, int b)
 {
 int n;
-n = add(89, 9);
-printf("%d\n", n);
+n = add(a, b);
+_putchar("%d\n", n);
 return (0);
 }
