@@ -9,6 +9,6 @@ int add(int a, int b)
 {
 int n;
 n = %a + %b;
-gputchar(n);
-return (n);
+_putchar(%n);
+return (%n);
 }
