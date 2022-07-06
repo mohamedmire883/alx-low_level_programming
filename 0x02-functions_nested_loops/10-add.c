@@ -9,6 +9,6 @@
 int add(int a, int b)
 {
 int c = a + b;
-_putchar(b);
+_putchar(c);
 return (0);
 }
