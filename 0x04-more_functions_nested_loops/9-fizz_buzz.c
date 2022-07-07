@@ -10,13 +10,13 @@ int x;
 for (x = 1; x <= 100; x++)
 {
 if (x == 100)
-printf("buzz ");
-if (x % 3 == 0 && x % 5 == 0)
+printf("buzz");
+else if (x % 3 == 0 && x % 5 == 0)
 printf("fizzbuzz");
 else if (x % 3 == 0)
-printf("fizz ");
+printf("fizz");
 else if (x % 5 == 0)
-printf("buzz ");
+printf("buzz");
 else
 printf("%d ", x);
 }
