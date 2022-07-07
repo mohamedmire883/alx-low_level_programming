@@ -1,9 +1,13 @@
 #include "main.h"
+
 /**
-* _isupper -> this is a function to check upper case alphas
-* @c: an integer parameter
-* Return: something but success
-int _isupper(int c)
+* _putchar - writes the character c to stdout
+* @c: The character to print
+*
+* Return: on success 1
+* on error, -1 is returned and errno is set appropriately.
+*/
+int _putchar(char c)
 {
-return (c >= 'A' && c =< 'Z');
+return (write(1, &c, 1));
 }
