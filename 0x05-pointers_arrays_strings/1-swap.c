@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+* swap_in -> given two integrs swap the values they are holding
+* @a: parameter 1
+* @b: parameter 2
+*/
+void swap_int(int *a, int *b)
+{
+int n;
+int f;
+
+a = &n;
+b = &f;
+
+*a = f;
+*b = n;
+}
