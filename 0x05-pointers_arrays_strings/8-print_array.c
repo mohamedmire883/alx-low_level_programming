@@ -9,7 +9,7 @@
 */
 void print_array(int *a, int n)
 {
-int i[6];
+int i[5];
 
 for (n = 0; n < 10; n++)
 {
@@ -17,7 +17,7 @@ printf("%d ,", i[n]);
 n = *a;
 for (n = 0; n < 10; n++)
 {	
-printf("\n%d ,", *a);
+printf("%d ,", *a);
 a++;
 }
 }
