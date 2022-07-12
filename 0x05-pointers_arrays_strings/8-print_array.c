@@ -15,7 +15,7 @@ for (n = 0; n <= 4; n++)
 {
 printf("%d ,", i[n]);
 n = *a;
-n++;
+
 for (n = 0; n <= 4; n++)
 {
 printf("%d ,", *a);
