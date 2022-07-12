@@ -13,10 +13,11 @@ int i[6];
 
 for (n = 0; n < 10; n++)
 {
-printf("%d ,", &i[n]);
-a = n;
+printf("%d ,", i[n]);
+n = *a;
 for (n = 0; n < 10; n++)
 {	
 printf("\n%d ,", *a);
 a++;
+}
 }
