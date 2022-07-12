@@ -15,7 +15,7 @@ for (n = 0; n <= 6; n++)
 {
 printf("%d ,", i[n]);
 n = *a;
-gor (n = 0; n <= 6 n++)
+for (n = 0; n <= 6 n++)
 {	
 printf("%d ,", *a);
 a++;
