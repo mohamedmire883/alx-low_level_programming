@@ -9,14 +9,14 @@
 */
 void print_array(int *a, int n)
 {
-int i[6];
+int i[5];
 
-for (n = 0; n <= 6; n++)
+for (n = 0; n <= 5; n++)
 {
 printf("%d ,", i[n]);
 n = *a;
-for (n = 0; n <= 6; n++)
-{	
+for (n = 0; n <= 5; n++)
+{
 printf("%d ,", *a);
 a++;
 }
