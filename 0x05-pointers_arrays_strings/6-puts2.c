@@ -13,4 +13,3 @@ for (i = 0; i < length1 / 2; i++)
 _putchar(str[i]);
 _putchar('\n');
 }
-}
