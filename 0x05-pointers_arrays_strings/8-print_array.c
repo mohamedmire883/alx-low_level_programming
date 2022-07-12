@@ -17,8 +17,8 @@ printf("%d ,", i[n]);
 n = *a;
 for (n = 0; n <= 4; n++)
 {
-printf("%d ,", a);
-a++;
+printf("%d ,", *a);
+*a++;
 }
 }
 }
