@@ -9,12 +9,14 @@
 */
 void print_array(int *a, int n)
 {
-n[6];
-*a = &n;
-int i;
-for (i = 0; i < a; i++)
+int i[6];
+
+for (n = 0; n < 10; n++)
 {
-printf("%d ,", i);
-}
-printf("\n");
+printf("%d ,", &i[n]);
+a = n;
+for (n = 0; n < 10; n++)
+{	
+printf("\n%d ,", *a);
+a++;
 }
