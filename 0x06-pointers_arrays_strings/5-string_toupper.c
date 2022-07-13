@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* string_toupper -> reversing an array
-* @x: string param;
+* string_toupper -> converting any string to upper case
+* @x: string param
 * Return: string
 */
-char *string_toupper(char *)
+char *string_toupper(char *x)
 {
 int i = 0;
 while (x[i])
