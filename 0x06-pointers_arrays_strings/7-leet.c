@@ -3,7 +3,7 @@
 /**
 * leet -> a leet function
 * @x: param x
-* Return: return a string
+* Return: string
 */
 char *leet(char *x)
 {
