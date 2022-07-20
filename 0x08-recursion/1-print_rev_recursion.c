@@ -13,7 +13,7 @@ if (*s == '\0')
 
 return;
 s++;
-gprint_rev_recursion(s);
+print_rev_recursion(s);
 s--;
 _putchar(*s);
 }
