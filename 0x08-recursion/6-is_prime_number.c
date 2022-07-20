@@ -9,7 +9,7 @@ int check_prime(int, int);
 
 int is_prime_number(int n)
 {
-return (_sqrt(n, 1));
+return (check_prime(n, 1));
 }
 
 /**
@@ -21,7 +21,7 @@ return (_sqrt(n, 1));
 
 int check_prime(int n, int i)
 {
-int square = i * i;
+
 
 if (n <= 0)
 return (0);
