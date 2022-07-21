@@ -3,7 +3,7 @@ int check_prime(int, int);
 
 /**
 * is_prime_number -> prime identifier
-* @n: is a number
+* @n: is number
 * Return: integer
 */
 
@@ -23,7 +23,7 @@ int check_prime(int n, int i)
 {
 
 
-if (n <= 0)
+if (n <= 1)
 return (0);
 if (n % i == 0 && i > 1)
 return (0);
