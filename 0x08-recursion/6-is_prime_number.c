@@ -3,8 +3,8 @@ int check_prime(int, int);
 
 /**
 * is_prime_number -> prime identifier
-* @n: parameter to be sqrt
-* Return: sqrt of a number
+* @n: is a number
+* Return: integer
 */
 
 int is_prime_number(int n)
