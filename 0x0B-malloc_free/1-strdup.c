@@ -12,7 +12,7 @@ int i = 1;
 if (str == Null)
 return (NULL);
 
-while (string[i])
+while (str[i])
 i++;
 s = (char *)malloc(i *sizeof(char) + 1);
 if (s == Null)
