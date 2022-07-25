@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strdup -> strig duplicator function
  * @str: string to be duplicated
