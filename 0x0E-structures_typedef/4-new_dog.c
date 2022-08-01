@@ -45,8 +45,3 @@ for (k = 0; k <= j; k++)
 mydog->owner[k] = owner[k];
 return (mydog);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-
